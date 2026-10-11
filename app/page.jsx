@@ -1,8 +1,10 @@
 import Home from './home/Home.jsx'
 
 const page = () => {
+const title = "Tumo";
+
   return (
-    <Home />
+    <Home title = {title} />
   );
     
 }

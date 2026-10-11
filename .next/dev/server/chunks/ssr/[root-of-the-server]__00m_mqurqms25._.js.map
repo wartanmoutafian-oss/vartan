@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///Users/user/Desktop/vartan/app/home/Home.jsx"],"sourcesContent":["import './Home.css';\nimport {Button} from './Companets/cards/buttton/Button'\n\nconst Home = (props) => {\n    console.log(props);\n\n    return (\n        <div className = 'home'> \n        <h1>{props.title}</h1>\n        <p>Welcome Home</p>\n        <Button></Button>\n        </div>\n       \n    );\n}\n\nexport default Home "],"names":["Home","props","console","log","className","title","Button"],"mappings":";;;;;;;;;;;;;AAGA,MAAMA,OAAO,CAACC;IACVC,QAAQC,GAAG,CAACF;IAEZ,qBACI,8OAAC;QAAIG,WAAY;;0BACjB,8OAAC;0BAAIH,MAAMI,KAAK;;;;;;0BAChB,8OAAC;0BAAE;;;;;;0BACH,8OAACC;;;;;;;;;;;AAIT;uCAEeN"}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":["file:///Users/user/Desktop/vartan/app/page.jsx"],"sourcesContent":["import Home from './home/Home.jsx'\n\nconst page = () => {\nconst title = \"Tumo\";\n\n  return (\n    <Home title = {title} />\n  );\n    \n}\n\nexport default page"],"names":["page","title"],"mappings":";;;;;AAAA;;;AAEA,MAAMA,OAAO;IACb,MAAMC,QAAQ;IAEZ,qBACE,8OAAC,+HAAI;QAACA,OAASA;;;;;;AAGnB;uCAEeD"}}]
+}
